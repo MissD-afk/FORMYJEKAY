@@ -20,7 +20,7 @@ function celebrate() {
   for (let i = 0; i < 28; i++) {
     const petal = document.createElement("span");
     petal.className = "petal";
-    petal.textContent = Math.random() > 1.35 ? "✿" : "♡";
+    petal.textContent = Math.random() > 0.35 ? "✿" : "♡";
     petal.style.left = Math.random() * 100 + "vw";
     petal.style.animationDuration = (3 + Math.random() * 4) + "s";
     petal.style.animationDelay = Math.random() * 1.5 + "s";
