@@ -4,7 +4,7 @@ const response = document.getElementById("response");
 
 yesBtn.addEventListener("click", () => {
   response.textContent = "YESSS FINALLYY FINALLYYY OFFICIALLLY JHEEVIAAAHHH!! HAHAHHAHAHA. Thank you for accepting me to your life love. 💚🌼";
-  yesBtn.textContent = "A very happy YES! 💚";
+  yesBtn.textContent = "Labag sa loob na YES! 💚";
   yesBtn.disabled = true;
   timeBtn.disabled = true;
   celebrate();
@@ -12,7 +12,7 @@ yesBtn.addEventListener("click", () => {
 
 timeBtn.addEventListener("click", () => {
   response.textContent = "That's completely okay. Kaya ko la, so what? may balik yan!💚";
-  timeBtn.textContent = "Thank you for understanding";
+  timeBtn.textContent = "Better luck next time, bossinggg!";
 });
 
 function celebrate() {
